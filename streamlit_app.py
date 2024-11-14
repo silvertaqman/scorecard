@@ -1,4 +1,5 @@
 import streamlit as st
+from utils import backend
 
 st.title("🎈 My new app")
 st.write(
@@ -14,3 +15,5 @@ df = conn.query('SELECT * FROM mytable;', ttl="10m")
 # Print results.
 for row in df.itertuples():
     st.write(f"{row.name} has a :{row.pet}:")
+
+# Cargar los datos

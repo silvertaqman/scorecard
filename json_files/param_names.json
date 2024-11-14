@@ -1,0 +1,65 @@
+{
+    "almacenaje": {
+        "datos": [
+            "N\u00famero de personas almac\u00e9n",
+            "Metros cuadrados del almac\u00e9n",
+            "N\u00famero de equipos",
+            "N\u00famero de posiciones",
+            "Otros gastos de almac\u00e9n"
+        ],
+        "costos_gastos": [
+            "Costo mano de obra anual $",
+            "Costo del alquiler del almac\u00e9n $",
+            "Costo suministros de oficina $",
+            "Costos de energ\u00eda (electricidad, gas, otros) $",
+            "Servicios de terceros en log\u00edstica (3PL) $",
+            "Otros gastos $" 
+        ],
+        "inversiones": [
+            "Inversiones en edificio y terreno $",
+            "Sistema de manejo de materiales (montacargas, elevadores, carretillas, bater\u00edas, etc) $",
+            "Sistemas de almacenamiento (Racks, Conveyors, carretillas, etc) $",
+            "WMS (licencias, mantenimiento, etc) $",
+            "Seguros del inventario $",
+            "Otras inversiones $"
+        ]
+    },
+    "inventario": {
+        "datos": [
+            "N\u00famero de personas dedicadas al control de inventario (encargados y planeadores)",
+            "Metros cuadrados de oficinas inventarios",
+            "N\u00famero de equipos (fax, computadoras, etc)"
+        ],
+        "datos_calculados": [
+            "N\u00famero de SKU's",
+            "N\u00famero de proveedores"
+        ],
+        "costos_gastos": [
+            "Costos de mano de obra de personas dedicadas al control de inventario $",
+            "Costos de energ\u00eda de la oficina de inventarios $",
+            "Suministros de oficina de inventarios $",
+            "Costos de espacio de oficina de inventarios $",
+            "Otros gastos de la oficina de inventarios $"
+        ],
+        "inversiones": [
+            "Inversi\u00f3n en hardware (fax, phones, TV, computers, etc) $",
+            "Inversi\u00f3n en software de inventarios $"
+        ],
+        "inversiones_calculado": [
+            "Inversi\u00f3n en inventario promedio $",
+            "Costo financiero de la inversi\u00f3n de inventario"
+        ]
+    },
+    "generales": {
+        "financieros": [
+            "Costo de capital de la empresa %"
+        ],
+        "financieros_calculados": [
+            "Ventas",
+            "Ventas al costo"
+        ],
+        "operativos": [
+            "N\u00famero de horas laborales anual FTE"
+        ]
+    }
+}
